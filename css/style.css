@@ -1,5 +1,27 @@
+body {
+    background: rgba(0, 255, 221, 0.212);
+    align-items: flex-start;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.5px );
+    -webkit-backdrop-filter: blur( 8.5px );
+    border-radius: 23px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+
 .profile_image {
     border-radius: 50%;
-    width: auto;
     height: 200px;
+    width: 200px;
+    box-shadow: #069b7d 2px 5px 5px;
+    align-self: center;
+}
+
+.site-header-content {
+    margin: 10px;
 }
